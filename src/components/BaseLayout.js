@@ -1,14 +1,16 @@
 import React, { Component } from "react"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 class BaseLayout extends Component {
   render() {
     return (
       <div>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/portfolio">Portfolio</Link>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/portfolio">Portfolio</NavLink>
+          <NavLink to="/contacts">Contacts</NavLink>
+          <NavLink to="/references">References</NavLink>
         </nav>
         {this.props.children}
       </div>
