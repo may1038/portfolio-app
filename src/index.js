@@ -13,7 +13,7 @@ ReactDOM.render(
   <BrowserRouter>
     <App>
       <BaseLayout>
-        <Route path="/home" component={Home} />
+        <Route path="/home" exact component={Home} />
         <Route path="/code" component={Code} />
         <Route path="/contacts" component={Contacts} />
       </BaseLayout>
