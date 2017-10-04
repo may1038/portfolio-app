@@ -11,45 +11,71 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
-        <div>
-          <h1>About</h1>
-          <p>I love web design. CSS3 is my best friend. So is ReactJS.</p>
+        {/*About*/}
+        {/*About*/}
+        {/*About*/}
+        <div className="aboutFlex">
+          <div>
+            <h1>About</h1>
+            <p>I love web design. CSS3 is my best friend. So is ReactJS.</p>
+          </div>
         </div>
-        <div>
-          <h3>Backgroud</h3>
+        {/*Backgroud*/}
+        {/*Backgroud*/}
+        {/*Backgroud*/}
+        <div className="aboutFlex">
+          <div>
+            <h3>Backgroud</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+              beatae, molestiae! Modi temporibus, ad quia corporis atque maiores
+              quibusdam, id eos aliquam perspiciatis distinctio dicta harum,
+              vero impedit porro. Officiis.
+            </p>
+          </div>
         </div>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
-            beatae, molestiae! Modi temporibus, ad quia corporis atque maiores
-            quibusdam, id eos aliquam perspiciatis distinctio dicta harum, vero
-            impedit porro. Officiis.
-          </p>
+        {/*Contact*/}
+        {/*Contact*/}
+        {/*Contact*/}
+        <div className="aboutFlex">
+          <div>
+            <h3>Contact</h3>
+            <ul>
+              <li>tylermay@usa.com</li>
+              <li>may1038@github.example</li>
+              <li>anotherExample@usa.com</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h3>Contact</h3>
+
+        {/*Resume*/}
+        {/*Resume*/}
+        {/*Resume*/}
+        <div className="aboutFlex">
+          <div>
+            <h3>Resume</h3>
+            <a
+              className="homeLink"
+              href="https://www.linkedin.com/in/tyler-may-bb31606b/"
+              target="_blank"
+            >
+              View/Link
+            </a>
+          </div>
         </div>
-        <div>
-          <ul>
-            <li>tylermay@usa.com</li>
-            <li>may1038@github.example</li>
-            <li>anotherExample@usa.com</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Resume</h3>
-        </div>
-        <div>
-          <a
-            className="homeLink"
-            href="https://www.linkedin.com/in/tyler-may-bb31606b/"
-            target="_blank"
-          >
-            View/Link
-          </a>
-        </div>
-        <div>
-          <h1>Skills</h1>
+        {/*Skills*/}
+        {/*Skills*/}
+        {/*Skills*/}
+        <div className="aboutFlex">
+          <div>
+            <h1>Skills</h1>
+            <ul>
+              <li>React</li>
+              <li>Javascript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
         </div>
       </div>
     )

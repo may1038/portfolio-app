@@ -6,9 +6,15 @@ class BaseLayout extends Component {
     return (
       <div>
         <nav>
-          <NavLink to="/home">Home</NavLink>
-          <NavLink to="/code">Code</NavLink>
-          <NavLink to="/contacts">Contact</NavLink>
+          <NavLink className="navBar" to="/">
+            Home
+          </NavLink>
+          <NavLink className="navBar" to="/code">
+            Code
+          </NavLink>
+          <NavLink className="navBar" to="/contacts">
+            Contact
+          </NavLink>
         </nav>
         {this.props.children}
       </div>
