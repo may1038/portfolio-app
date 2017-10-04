@@ -1,18 +1,91 @@
 nav {
   display: flex;
   justify-content: space-around;
+  background-color: #f34f4f;
+  padding: 20px;
+  font-size: 30px;
+  width: 90;
 }
 
 nav a.active {
-  color: red;
+  color: #ecf0f1;
+}
+
+a {
+  color: #231f1f;
+}
+
+.homeLink:hover {
+  color: #2980b9;
 }
 
 .imgBlog {
   height: 300px;
   width: auto;
+  border-radius: 3px;
+}
+
+.imgBlog:hover {
+  transform: scale(1.01, 1.01);
+  box-shadow: 3px 3px 5px #888888;
 }
 
 .imgThreads {
   height: 300px;
   width: auto;
+  border-radius: 3px;
+}
+
+.imgThreads:hover {
+  transform: scale(1.01, 1.01);
+  box-shadow: 3px 3px 5px #888888;
+}
+
+.imgHeadShot {
+  height: 300px;
+  width: auto;
+}
+
+.homeImg {
+  height: 92vh;
+  background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?dpr=1&auto=compress,format&fit=crop&w=2550&h=&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.name {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: #ecf0f1;
+  font-size: 60px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1505312763706-d42a3b9755b1?dpr=1&auto=compress,format&fit=crop&w=2801&h=&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  height: 100vh;
+}
+
+.forminput {
+  margin: 5px;
+}
+
+.contactText {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-size: 23px;
+}
+
+.formSmWrapper {
+  border-radius: 3px;
+  padding: 30px;
+  background-color: white;
 }

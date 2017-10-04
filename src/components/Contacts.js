@@ -1,34 +1,30 @@
 import React, { Component } from "react"
 
 class Contacts extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      contactInfo: []
-    }
-  }
-
-  componentDidMount() {
-    fetch("https://api.github.com/users/may1038")
-      .then(r => r.json())
-      .then(json => {
-        this.setState({
-          contactInfo: json
-        })
-      })
-  }
-
   render() {
     return (
-      <div>
-        <h3>Location: {this.state.contactInfo.location}</h3>
-        <h3>Name: {this.state.contactInfo.name}</h3>
-        <h3>
-          Email:<a href="mailto:tylermay@usa.com">Email me</a>
-        </h3>
-        <br />
-        <img src={this.state.contactInfo.avatar_url} />
-        }
+      <div className="formWrapper">
+        <div className="form">
+          <form>
+            <div className="formSmWrapper">
+              <div className="contactText">
+                <h3>I'd love to hear from you!</h3>
+              </div>
+              <label>Name:</label>
+              <div className="forminput">
+                <input type="text" />
+              </div>
+              <label>Email:</label>
+              <div className="forminput">
+                <input type="text" />
+              </div>
+              <label>Message:</label>
+              <div className="forminput">
+                <textarea name="" id="" cols="100" rows="25" />
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     )
   }
