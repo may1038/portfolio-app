@@ -10,17 +10,26 @@ class Contacts extends Component {
               <div className="contactText">
                 <h3>I'd love to hear from you!</h3>
               </div>
-              <label>Name:</label>
-              <div className="forminput">
-                <input type="text" />
-              </div>
-              <label>Email:</label>
-              <div className="forminput">
-                <input type="text" />
-              </div>
-              <label>Message:</label>
-              <div className="forminput">
-                <textarea name="" id="" cols="100" rows="25" />
+              <div>
+                <div className="formFlex">
+                  <label>Name:</label>
+                  <div className="forminput">
+                    <input type="text" />
+                  </div>
+                  <label>Email:</label>
+                  <div className="forminput">
+                    <input type="email" />
+                  </div>
+                </div>
+                <label>Message:</label>
+                <div className="forminput">
+                  <textarea name="" id="" cols="100" rows="25" />
+                </div>
+                <div>
+                  <button className="submitBtn" type="submit">
+                    Submit
+                  </button>
+                </div>
               </div>
             </div>
           </form>

@@ -6,9 +6,9 @@ class Code extends Component {
       <div>
         <div>
           <div>
-            <h1>Projects</h1>
+            <h1 className="projectTitle">Projects</h1>
           </div>
-          <div>
+          <div className="codeWrapper">
             <a href="https://may-blog.herokuapp.com/" target="_blank">
               <img
                 className="imgBlog"
@@ -16,20 +16,22 @@ class Code extends Component {
                 title="source: imgur.com"
               />
             </a>
-            <h3>Polly Blog</h3>
-            <p>
-              Blog application that uses React and React Router, and generates
-              dynamic endpoints.
-            </p>
-            <ul>
-              ///loose the bullet point on Tools Used
-              <li className="">Tools Used</li>
-              <li>ReactJS</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-            </ul>
+            <div className="projectDesc">
+              <h3 className="projectName">Polly Blog</h3>
+              <p className="codeParagrah">
+                Blog application that uses React and React Router, and generates
+                dynamic endpoints.
+              </p>
+              <ul>
+                ///loose the bullet point on Tools Used
+                <li className="">Tools Used</li>
+                <li>ReactJS</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
+            </div>
           </div>
-          <div>
+          <div className="codeWrapper">
             <a href="https://may-threads-kids.herokuapp.com/" target="_blank">
               <img
                 className="imgThreads"
@@ -37,15 +39,17 @@ class Code extends Component {
                 title="source: imgur.com"
               />
             </a>
-            <h3>Threads</h3>
-            <p>E-commerce Mock Site.</p>
-            <ul>
-              ///loose the bullet point on Tools Used
-              <li className="">Tools Used</li>
-              <li>ReactJS</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-            </ul>
+            <div className="projectDesc">
+              <h3 className="projectName">Threads</h3>
+              <p className="codeParagrah">E-commerce Mock Site.</p>
+              <ul>
+                ///loose the bullet point on Tools Used
+                <li className="">Tools Used</li>
+                <li>ReactJS</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
