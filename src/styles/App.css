@@ -30,7 +30,7 @@ a {
 }
 
 .imgBlog:hover {
-  transform: scale(1.01, 1.01);
+  transform: scale(1.1, 1.1);
   box-shadow: 3px 3px 5px #888888;
 }
 
@@ -41,7 +41,7 @@ a {
 }
 
 .imgThreads:hover {
-  transform: scale(1.01, 1.01);
+  transform: scale(1.1, 1.1);
   box-shadow: 3px 3px 5px #888888;
 }
 
@@ -118,7 +118,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 20px;
+  padding-left: 40px;
   width: 700px;
 }
 
@@ -155,10 +155,6 @@ a {
 .flexHome {
   display: flex;
   justify-content: center;
-}
-
-.languagesUsed {
-  margin-bottom: 5px;
 }
 
 .backgroundContactWrap {
@@ -210,4 +206,8 @@ a {
 
 .skillsTitle {
   color: grey;
+}
+
+.ulCode {
+  margin-top: 0;
 }

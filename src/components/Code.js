@@ -22,8 +22,8 @@ class Code extends Component {
                 Blog application that uses React and React Router, and generates
                 dynamic endpoints.
               </p>
-              <ul>
-                <span className="languagesUsed">Languages Used</span>
+              <span className="languagesUsed">Languages Used:</span>
+              <ul className="ulCode">
                 <li>ReactJS</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -41,11 +41,35 @@ class Code extends Component {
             <div className="projectDesc">
               <h3 className="projectName">Threads</h3>
               <p className="codeParagrah">E-commerce Mock Site.</p>
-              <ul>
-                <span className="languagesUsed">Languages Used</span>
+              <span className="languagesUsed">Tools Used:</span>
+              <ul className="ulCode">
                 <li>ReactJS</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
+              </ul>
+            </div>
+          </div>
+          <div className="codeWrapper">
+            <a href="https://may-earthquake.herokuapp.com/" target="_blank">
+              <img
+                className="imgBlog"
+                src="https://i.imgur.com/llw4WmB.png"
+                title="source: imgur.com"
+              />
+            </a>
+            <div className="projectDesc">
+              <h3 className="projectName">Earthquake</h3>
+              <p className="codeParagrah">
+                ReactJS application that constantly checks for earthquakes in
+                the United States, and displays the results.
+              </p>
+              <span className="languagesUsed">Tools Used:</span>
+              <ul className="ulCode">
+                <li>ReactJS</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>NASA API</li>
               </ul>
             </div>
           </div>
