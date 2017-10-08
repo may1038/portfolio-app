@@ -8,7 +8,7 @@ class Contacts extends Component {
           <form>
             <div className="formSmWrapper">
               <div className="contactText">
-                <h3>I'd love to hear from you!</h3>
+                <h1>I'd love to hear from you!</h1>
               </div>
               <div>
                 <div className="formFlex">

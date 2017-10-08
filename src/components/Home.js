@@ -24,7 +24,7 @@ class Portfolio extends Component {
                     Hi! My name is Tyler and I really enjoy building things.
                     This is my portfolio website, feel free to poke around and
                     if you would like to reach out to me please visit the
-                    contact tab and fill out the form.{" "}
+                    contact tab and fill out the form.
                   </p>
                 </div>
               </div>
@@ -34,7 +34,7 @@ class Portfolio extends Component {
               <div className="backgroundContactWrap">
                 <div>
                   <div className="backgroundDiv">
-                    <h3 className="aboutFontColor">Background</h3>
+                    <h3 className="aboutFont">Background</h3>
                     <p>
                       I recently completed a 12-week course aimed at full stack
                       web development at The Iron Yard. I enjoy building
@@ -46,7 +46,7 @@ class Portfolio extends Component {
                 {/*Contact*/}
                 {/*Contact*/}
                 <div>
-                  <h3 className="aboutFontColor">Contact</h3>
+                  <h3 className="aboutFont">Contact</h3>
                   <div className="spanFlex">
                     <span>tylermay@usa.com</span>
                     <span>
@@ -76,7 +76,7 @@ class Portfolio extends Component {
               {/*Resume*/}
               <div className="resumeFlex">
                 <div>
-                  <h3 className="aboutFontColor">Resume</h3>
+                  <h3 className="aboutFont">Resume</h3>
                   <a
                     className="homeLink"
                     href="https://www.linkedin.com/in/tyler-may-bb31606b/"
