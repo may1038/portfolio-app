@@ -47,8 +47,8 @@ a {
 }
 
 .homeImg {
-  height: 92vh;
-  background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?dpr=1&auto=compress,format&fit=crop&w=2550&h=&q=80&cs=tinysrgb&crop=");
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1432847712612-926caafaa802?dpr=1&auto=compress,format&fit=crop&w=2700&h=&q=80&cs=tinysrgb&crop=");
   background-size: cover;
   opacity: 0.95;
 }
@@ -57,7 +57,7 @@ a {
   margin: 0;
   display: flex;
   justify-content: center;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 100px;
   color: #ecf0f1;
   font-size: 60px;
@@ -70,7 +70,7 @@ a {
   width: 100%;
   background-image: url("https://images.unsplash.com/photo-1505312763706-d42a3b9755b1?dpr=1&auto=compress,format&fit=crop&w=2801&h=&q=80&cs=tinysrgb&crop=");
   background-size: cover;
-  height: 85vh;
+  height: 100vh;
 }
 
 .forminput {
@@ -90,7 +90,8 @@ a {
   padding-bottom: 100px;
   padding-left: 300px;
   padding-right: 300px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .formFlex {
@@ -142,4 +143,48 @@ a {
 }
 
 .bodyWrapper {
+  width: 1000px;
+}
+
+.flexHome {
+  display: flex;
+  justify-content: center;
+}
+
+.languagesUsed {
+  margin-bottom: 5px;
+}
+
+.backgroundContactWrap {
+  display: flex;
+}
+
+.aboutFontColor {
+  color: grey;
+}
+
+.iconFlex {
+  display: flex;
+}
+
+.reactJsDiv {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.htmlCssDiv {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rowzContent {
+  flex-basis: 10%;
+}
+
+.spanFlex {
+  display: flex;
+  flex-direction: column;
 }

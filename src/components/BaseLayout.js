@@ -6,7 +6,7 @@ class BaseLayout extends Component {
     return (
       <div>
         <nav>
-          <NavLink className="navBar" to="/">
+          <NavLink className="navBar" exact to="/">
             Home
           </NavLink>
           <NavLink className="navBar" to="/code">

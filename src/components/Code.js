@@ -23,8 +23,7 @@ class Code extends Component {
                 dynamic endpoints.
               </p>
               <ul>
-                ///loose the bullet point on Tools Used
-                <li className="">Tools Used</li>
+                <span className="languagesUsed">Languages Used</span>
                 <li>ReactJS</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -43,8 +42,7 @@ class Code extends Component {
               <h3 className="projectName">Threads</h3>
               <p className="codeParagrah">E-commerce Mock Site.</p>
               <ul>
-                ///loose the bullet point on Tools Used
-                <li className="">Tools Used</li>
+                <span className="languagesUsed">Languages Used</span>
                 <li>ReactJS</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
