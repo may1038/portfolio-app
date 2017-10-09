@@ -14,11 +14,11 @@ nav {
 }
 
 p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 span {
-  font-size: 20px;
+  font-size: 12px;
 }
 
 a {
@@ -39,7 +39,7 @@ a {
 }
 
 .homeLink {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .imgBlog {
@@ -195,7 +195,7 @@ a {
 
 .aboutFont {
   color: grey;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .iconFlex {
@@ -274,11 +274,11 @@ a {
   }
 
   p {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   span {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   a {
@@ -286,7 +286,7 @@ a {
   }
 
   .span {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .active {
@@ -299,7 +299,7 @@ a {
   }
 
   .homeLink {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .imgBlog {
@@ -330,7 +330,7 @@ a {
   }
 
   .homeImg {
-    height: 100vh;
+    height: 105vh;
     background-image: url("https://images.unsplash.com/photo-1432847712612-926caafaa802?dpr=1&auto=compress,format&fit=crop&w=2700&h=&q=80&cs=tinysrgb&crop=");
     background-size: cover;
   }
@@ -389,7 +389,10 @@ a {
   .codeWrapper {
     display: flex;
     justify-content: space-around;
-    margin: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .projectDesc {
@@ -455,7 +458,7 @@ a {
 
   .aboutFont {
     color: grey;
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .iconFlex {

@@ -167,7 +167,7 @@ class Portfolio extends Component {
                       />
                     </div>
                     <div>
-                      <span>No SQL</span>
+                      <span className="skillsTitle">NoSQL:</span>
                       <br />
                       <span className="span">MongoDB</span>
                     </div>
