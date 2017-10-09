@@ -11,6 +11,7 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
+
         {/*About*/}
         {/*About*/}
         {/*About*/}
@@ -21,10 +22,17 @@ class Portfolio extends Component {
                 <h1 className="homeTitle">About</h1>
                 <div className="aboutContentWrapper">
                   <p>
-                    Hi! My name is Tyler and I really enjoy building things.
-                    This is my portfolio website, feel free to poke around and
-                    if you would like to reach out to me please visit the
-                    contact tab and fill out the form.
+                    Hi, I'm Tyler. I am a web developer. I specialize in
+                    front-end engineering. I really enjoy working in HTML, CSS,
+                    javascript, and ReactJS but am familiar with node.js,
+                    mongoDB, SQL, pulling data from API's and building
+                    databases.
+                  </p>
+                  <p>
+                    I am currently searching for work. I am looking for an
+                    organization with a culture that fits my personality. I love
+                    to work in groups that have great communication.
+                    Communication is of huge importance to me.
                   </p>
                 </div>
               </div>
@@ -38,8 +46,12 @@ class Portfolio extends Component {
                     <p>
                       I recently completed a 12-week course aimed at full stack
                       web development at The Iron Yard. I enjoy building
-                      applications and especially like styling.
+                      applications and especially like styling. At The Iron Yard
+                      I learned to build full web applications front to back.
+                      This applicable skill gives me the ability to move into a
+                      position with little learning curve.
                     </p>
+                    <p> I look forward to speaking with you!</p>
                   </div>
                 </div>
                 {/*Contact*/}
@@ -90,6 +102,7 @@ class Portfolio extends Component {
             {/*Skills*/}
             {/*Skills*/}
             {/*Skills*/}
+            <div className="skillsImg" />
             <div>
               <h1 className="homeTitle">Skills</h1>
               <div>

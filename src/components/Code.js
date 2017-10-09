@@ -40,7 +40,9 @@ class Code extends Component {
             </a>
             <div className="projectDesc">
               <h3 className="projectName">Threads</h3>
-              <p className="codeParagrah">E-commerce Mock Site.</p>
+              <p className="codeParagrah">
+                This was a super fun little E-commerce Mock Site.
+              </p>
               <span className="languagesUsed">Tools Used:</span>
               <ul className="ulCode">
                 <li>ReactJS</li>
