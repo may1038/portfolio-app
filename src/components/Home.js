@@ -42,8 +42,7 @@ class Portfolio extends Component {
                     Hi, I'm Tyler. I am a web developer. I specialize in
                     front-end engineering. I really enjoy working in HTML, CSS,
                     javascript, and ReactJS but am familiar with node.js,
-                    mongoDB, SQL, pulling data from API's and building
-                    databases.
+                    mongoDB, SQL, pulling data from APIs and building databases.
                   </p>
                   <p>
                     I am currently searching for work. I am looking for an
