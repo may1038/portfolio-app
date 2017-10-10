@@ -50,20 +50,10 @@ a {
   border-radius: 3px;
 }
 
-.imgBlog:hover {
-  transform: scale(1.1, 1.1);
-  box-shadow: 3px 3px 5px #888888;
-}
-
 .imgThreads {
   height: 250px;
   width: auto;
   border-radius: 3px;
-}
-
-.imgThreads:hover {
-  transform: scale(1.1, 1.1);
-  box-shadow: 3px 3px 5px #888888;
 }
 
 .imgHeadShot {
@@ -128,15 +118,8 @@ a {
   text-decoration: none;
 }
 
-.codeWrapper {
-}
-
-.projectDesc {
-}
-
 .projectName {
   border-bottom: 1px solid #b9b9b9;
-  width: 120px;
   padding-bottom: 10px;
   margin-bottom: 0;
   width: 100%;
@@ -150,7 +133,6 @@ a {
 
 .projectTitle {
   border-bottom: 3px solid #b9b9b9;
-  width: 132px;
   padding-bottom: 10px;
   margin-left: 100px;
   margin-top: 60px;
@@ -214,10 +196,6 @@ a {
 .spanFlex {
   display: flex;
   flex-direction: column;
-}
-
-.backgroundDiv {
-  margin-right: 100px;
 }
 
 .icon {
