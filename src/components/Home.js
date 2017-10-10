@@ -105,11 +105,7 @@ class Portfolio extends Component {
               <div className="resumeFlex">
                 <div className="resumeMargin">
                   <h3 className="aboutFont">Resume</h3>
-                  <a
-                    className="homeLink"
-                    href="https://www.linkedin.com/in/tyler-may-bb31606b/"
-                    target="_blank"
-                  >
+                  <a className="homeLink" href="/resume.html" target="_blank">
                     View/Link
                   </a>
                 </div>
