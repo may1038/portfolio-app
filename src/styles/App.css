@@ -4,9 +4,10 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #f34f4f;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 30px;
   width: 100%;
   position: fixed;
@@ -22,6 +23,7 @@ span {
 }
 
 a {
+  margin-right: 10px;
   color: #231f1f;
 }
 
@@ -43,7 +45,7 @@ a {
 }
 
 .imgBlog {
-  height: 325px;
+  height: 250px;
   width: auto;
   border-radius: 3px;
 }
@@ -54,7 +56,7 @@ a {
 }
 
 .imgThreads {
-  height: 325px;
+  height: 250px;
   width: auto;
   border-radius: 3px;
 }
@@ -82,7 +84,7 @@ a {
   padding-top: 300px;
   padding-bottom: 100px;
   color: #ecf0f1;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .form {
@@ -127,17 +129,9 @@ a {
 }
 
 .codeWrapper {
-  display: flex;
-  justify-content: space-around;
-  margin: 50px;
 }
 
 .projectDesc {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding-left: 40px;
-  width: 700px;
 }
 
 .projectName {
@@ -163,18 +157,18 @@ a {
 }
 
 .homeTitle {
-  margin-top: 100px;
+  margin-top: 50px;
   border-bottom: 3px solid #b9b9b9;
   padding-bottom: 10px;
   font-size: 45px;
 }
 
 .bodyWrapper {
-  width: 1100px;
+  width: 100%;
 }
 
 .projectBodyWrapper {
-  width: 1100px;
+  width: 100%;
 }
 
 .flexHome {
@@ -188,7 +182,6 @@ a {
 }
 
 .backgroundContactWrap {
-  display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -204,21 +197,18 @@ a {
 }
 
 .reactJsDiv {
-  margin-top: 120px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
 }
 
 .htmlCssDiv {
-  margin-top: 100px;
-  margin-bottom: 100px;
   display: flex;
   justify-content: space-around;
 }
 
 .rowzContent {
-  flex-basis: 19%;
+  flex-basis: 25%;
 }
 
 .spanFlex {
@@ -254,7 +244,6 @@ a {
 
 .skillsWrapper {
   margin-top: 150px;
-  margin-bottom: 70px;
 }
 
 .languagesUsed {
@@ -339,7 +328,7 @@ a {
     margin: 0;
     display: flex;
     justify-content: center;
-    padding-top: 240px;
+    padding-top: 200px;
     padding-bottom: 100px;
     color: #ecf0f1;
     font-size: 90px;

@@ -178,7 +178,9 @@ class Portfolio extends Component {
                       />
                     </div>
                     <div>
-                      <span>Responsive & Mobile Design</span>
+                      <span className="skillsTitle">
+                        Responsive & Mobile Design
+                      </span>
                     </div>
                   </div>
                   <div className="rowzContent">
