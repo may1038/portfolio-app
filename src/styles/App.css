@@ -240,8 +240,9 @@ a {
     background-color: #f34f4f;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 55.9px;
+    font-size: 30px;
     position: fixed;
+    width: 100%;
   }
 
   p {
