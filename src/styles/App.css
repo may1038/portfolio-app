@@ -233,6 +233,245 @@ a {
   font-size: 18px;
 }
 
+/*iPhone 6 plus*/
+/*iPhone 6 plus*/
+/*iPhone 6 plus*/
+/*iPhone 6 plus*/
+/*iPhone 6 plus*/
+@media (min-width: 414px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f34f4f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+
+  a {
+    margin-right: 10px;
+    color: #231f1f;
+  }
+
+  .span {
+    font-size: 15px;
+  }
+
+  .active {
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+
+  .homeLink:hover {
+    color: #2980b9;
+  }
+
+  .homeLink {
+    font-size: 16px;
+  }
+
+  .imgBlog {
+    height: 226px;
+    width: auto;
+    border-radius: 3px;
+  }
+
+  .imgThreads {
+    height: 226px;
+    width: auto;
+    border-radius: 3px;
+  }
+
+  .imgHeadShot {
+    height: 300px;
+    width: auto;
+  }
+
+  .homeImg {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1432847712612-926caafaa802?dpr=1&auto=compress,format&fit=crop&w=2700&h=&q=80&cs=tinysrgb&crop=");
+    background-size: cover;
+  }
+
+  .name {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    color: #ecf0f1;
+    font-size: 30px;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1505312763706-d42a3b9755b1?dpr=1&auto=compress,format&fit=crop&w=2801&h=&q=80&cs=tinysrgb&crop=");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .forminput {
+    margin: 5px;
+  }
+
+  .contactText {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 23px;
+  }
+
+  .formSmWrapper {
+    border-radius: 3px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+  .formFlex {
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+  }
+
+  .navBar {
+    text-decoration: none;
+  }
+
+  .projectName {
+    border-bottom: 1px solid #b9b9b9;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .codeParagrah {
+    margin-top: 0;
+    font-size: 17px;
+  }
+
+  .projectTitle {
+    border-bottom: 3px solid #b9b9b9;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+
+  .homeTitle {
+    margin-top: 50px;
+    border-bottom: 3px solid #b9b9b9;
+    padding-bottom: 10px;
+    font-size: 45px;
+  }
+
+  .bodyWrapper {
+    width: 100%;
+    padding-left: 7px;
+  }
+
+  .projectBodyWrapper {
+    width: 100%;
+    padding-left: 7px;
+    margin-top: 70px;
+  }
+
+  .flexHome {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projectFlex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .backgroundContactWrap {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .aboutFont {
+    color: grey;
+    font-size: 25px;
+  }
+
+  .iconFlex {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .reactJsDiv {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .htmlCssDiv {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .rowzContent {
+    flex-basis: 25%;
+  }
+
+  .spanFlex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    box-shadow: 3px 3px 5px #888888;
+  }
+
+  .aboutContentWrapper {
+    margin-top: 70px;
+  }
+
+  .skillsTitle {
+    color: grey;
+    font-size: 20px;
+  }
+
+  .ulCode {
+    margin-top: 0;
+  }
+
+  .resumeMargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .skillsWrapper {
+    margin-top: 150px;
+  }
+
+  .aboutFlex {
+    margin-top: 150px;
+  }
+
+  .languagesUsed {
+    font-size: 18px;
+  }
+}
+
 @media (min-width: 667px) {
   nav {
     display: flex;
