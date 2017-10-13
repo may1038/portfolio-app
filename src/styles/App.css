@@ -151,6 +151,7 @@ a {
 .projectBodyWrapper {
   width: 100%;
   padding-left: 7px;
+  margin-top: 70px;
 }
 
 .flexHome {
@@ -221,6 +222,10 @@ a {
 }
 
 .skillsWrapper {
+  margin-top: 150px;
+}
+
+.aboutFlex {
   margin-top: 150px;
 }
 
