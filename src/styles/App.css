@@ -5,13 +5,12 @@ body {
 nav {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   background-color: #f34f4f;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 30px;
-  width: 100%;
   position: fixed;
-  /*transition-timing-function: ease-in-out;*/
 }
 
 p {
@@ -45,13 +44,13 @@ a {
 }
 
 .imgBlog {
-  height: 250px;
+  height: 226px;
   width: auto;
   border-radius: 3px;
 }
 
 .imgThreads {
-  height: 250px;
+  height: 226px;
   width: auto;
   border-radius: 3px;
 }
@@ -71,7 +70,7 @@ a {
   margin: 0;
   display: flex;
   justify-content: center;
-  padding-top: 300px;
+  padding-top: 200px;
   padding-bottom: 100px;
   color: #ecf0f1;
   font-size: 30px;
@@ -147,10 +146,12 @@ a {
 
 .bodyWrapper {
   width: 100%;
+  padding-left: 7px;
 }
 
 .projectBodyWrapper {
   width: 100%;
+  padding-left: 7px;
 }
 
 .flexHome {
