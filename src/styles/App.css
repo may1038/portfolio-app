@@ -238,7 +238,7 @@ a {
 /*iPhone 6 plus*/
 /*iPhone 6 plus*/
 /*iPhone 6 plus*/
-@media (min-width: 414px) {
+@media (min-width: 412px) {
   nav {
     display: flex;
     justify-content: center;
