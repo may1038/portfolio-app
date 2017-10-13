@@ -5,11 +5,10 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   background-color: #f34f4f;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size: 29.8px;
   position: fixed;
 }
 
