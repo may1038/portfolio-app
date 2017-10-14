@@ -8,7 +8,8 @@ nav {
   background-color: #f34f4f;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 29.8px;
+  font-size: 29px;
+  width: 100%;
   position: fixed;
 }
 
@@ -43,13 +44,13 @@ a {
 }
 
 .imgBlog {
-  height: 226px;
+  height: 210px;
   width: auto;
   border-radius: 3px;
 }
 
 .imgThreads {
-  height: 226px;
+  height: 210px;
   width: auto;
   border-radius: 3px;
 }
@@ -145,12 +146,14 @@ a {
 
 .bodyWrapper {
   width: 100%;
-  padding-left: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .projectBodyWrapper {
   width: 100%;
-  padding-left: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 70px;
 }
 
@@ -214,6 +217,7 @@ a {
 
 .ulCode {
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .resumeMargin {
@@ -383,12 +387,14 @@ a {
 
   .bodyWrapper {
     width: 100%;
-    padding-left: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .projectBodyWrapper {
     width: 100%;
-    padding-left: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 70px;
   }
 
@@ -617,12 +623,14 @@ a {
 
   .bodyWrapper {
     width: 100%;
-    padding-left: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .projectBodyWrapper {
     width: 100%;
-    padding-left: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 70px;
   }
 

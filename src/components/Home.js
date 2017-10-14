@@ -40,7 +40,7 @@ class Portfolio extends Component {
                 <div className="aboutContentWrapper">
                   <p>
                     Hi, I'm Tyler. I am a web developer. I specialize in
-                    front-end engineering. I really enjoy working in HTML, CSS,
+                    front-end development. I really enjoy working in HTML, CSS,
                     javascript, and ReactJS but am familiar with node.js,
                     mongoDB, SQL, pulling data from APIs and building databases.
                   </p>
