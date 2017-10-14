@@ -4,7 +4,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #f34f4f;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -22,7 +22,6 @@ span {
 }
 
 a {
-  margin-right: 10px;
   color: #231f1f;
 }
 
@@ -245,7 +244,7 @@ a {
 @media (min-width: 412px) {
   nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #f34f4f;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -263,7 +262,6 @@ a {
   }
 
   a {
-    margin-right: 10px;
     color: #231f1f;
   }
 
