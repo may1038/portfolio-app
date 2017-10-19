@@ -889,6 +889,7 @@ a {
 
   .projectBodyWrapper {
     width: 1100px;
+    margin: 50px;
   }
 
   .flexHome {
@@ -969,6 +970,7 @@ a {
   .skillsWrapper {
     margin-top: 150px;
     margin-bottom: 70px;
+    margin-top: 170px;
   }
 
   .languagesUsed {
