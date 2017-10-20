@@ -39,10 +39,14 @@ class Portfolio extends Component {
                 <h1 className="homeTitle">About</h1>
                 <div className="aboutContentWrapper">
                   <p>
-                    Hi, I'm Tyler. I am a web developer. I specialize in
-                    front-end development. I really enjoy working in HTML, CSS,
-                    javascript, and ReactJS but am familiar with node.js,
-                    mongoDB, SQL, pulling data from APIs and building databases.
+                    Hi, I'm Tyler. I am a web developer/UI designer. I
+                    specialize in front-end development. I develop web
+                    applications using HTML, CSS, javascript, ReactJS but am
+                    familiar with node.js, mongoDB, SQL, pulling data from APIs
+                    and building databases.
+                  </p>
+                  <p>
+                    As a UI designer I am comfortable using Adobe XD and sketch.
                   </p>
                   <p>
                     I am currently searching for work. I am looking for an
@@ -62,7 +66,7 @@ class Portfolio extends Component {
                     <p>
                       I recently completed a 12-week course aimed at full stack
                       web development at The Iron Yard. I enjoy building
-                      applications and especially like styling. At The Iron Yard
+                      applications and especially like design. At The Iron Yard
                       I learned to build full web applications front to back.
                       This applicable skill gives me the ability to move into a
                       position with little learning curve.
@@ -178,9 +182,13 @@ class Portfolio extends Component {
                       />
                     </div>
                     <div>
-                      <span className="skillsTitle">
-                        Responsive & Mobile Design
-                      </span>
+                      <span className="skillsTitle">Design:</span>
+                      <br />
+                      <span>Adobe XD</span>
+                      <br />
+                      <span>Sketch</span>
+                      <br />
+                      <span>Responsive Design</span>
                     </div>
                   </div>
                   <div className="rowzContent">
