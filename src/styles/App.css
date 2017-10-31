@@ -134,11 +134,6 @@
     margin-bottom: 20px;
   }
 
-  .projectBodyWrapper {
-    margin-left: 50px;
-    margin-top: 10px;
-  }
-
   .projectDesc {
     margin: 10px;
   }
@@ -165,7 +160,7 @@
   .projectBodyWrapper {
     margin-left: 0;
     padding-right: 50px;
-    width: 696px;
+    width: 800px;
     border-top: 1px solid #b5b2b2;
   }
 
