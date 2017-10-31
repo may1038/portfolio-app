@@ -1218,3 +1218,247 @@
     color: black;
   }
 }
+
+@media (min-width: 1600px) {
+  body {
+    font-family: helvetica;
+    font-size: 10.5px;
+    width: 100%;
+  }
+
+  p {
+    font-size: 17px;
+    margin: 0;
+    color: #b5b2b2;
+  }
+
+  span {
+    font-size: 17px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .profilePic {
+    height: auto;
+    width: 800px;
+  }
+
+  .verticalText {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-top: 13px;
+    color: #b5b2b2;
+    font-size: 25px;
+  }
+
+  .titleSkillsWrapper {
+    display: flex;
+    width: 682px;
+    margin-top: 20px;
+  }
+
+  .header {
+    color: #b5b2b2;
+    font-size: 25px;
+  }
+
+  .vertical {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .name {
+    margin-left: 60px;
+  }
+
+  .projectImg {
+    height: 120px;
+    width: auto;
+  }
+
+  .imgAboutBackground {
+    display: flex;
+  }
+
+  .aboutBackground {
+    height: auto;
+    width: auto;
+    padding-right: 50px;
+  }
+
+  .aboutTransform {
+    display: flex;
+    justify-content: flex-end;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 25px;
+  }
+
+  .firstParagraph {
+    margin-bottom: 30px;
+  }
+
+  .backTransform {
+    display: flex;
+    justify-content: flex-end;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 25px;
+  }
+
+  .backgroundDiv {
+    display: flex;
+    margin-top: 81px;
+  }
+
+  .aboutDiv {
+    display: flex;
+    margin-top: 31px;
+  }
+
+  .homeTitle {
+    height: 70px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-right: 40px;
+    margin-top: 18px;
+    margin-right: 0;
+    font-size: 25px;
+  }
+
+  .reactJsDiv {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+
+  .codeWrapper {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .codeWrapper1 {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .projectDesc {
+    margin: 10px;
+  }
+
+  .bigSkillsWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .skillsWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    width: 613px;
+  }
+
+  .smallSkillsWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectBodyWrapper {
+    margin-left: 0;
+    padding-right: 50px;
+    width: 800px;
+    border-top: 1px solid #b5b2b2;
+  }
+
+  .projectName {
+    margin: 0px;
+    font-size: 17px;
+  }
+
+  .ulCode {
+    margin: 0;
+    color: #b5b2b2;
+  }
+
+  .projectTitle {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .languagesUsed {
+    color: #b5b2b2;
+  }
+
+  .skillsTitle {
+    color: #b5b2b2;
+    font-size: 17px;
+  }
+
+  .spanFlex {
+    color: #b5b2b2;
+  }
+
+  .homeLink {
+    color: #b5b2b2;
+    font-size: 17px;
+  }
+
+  .skills {
+    width: 841px;
+    margin-right: 100px;
+  }
+
+  .contact {
+    display: flex;
+  }
+
+  .contactResumeWrapper {
+    display: flex;
+    padding-left: 108px;
+    border-top: 1px solid #b5b2b2;
+    padding-top: 27px;
+  }
+
+  .resumeMargin {
+    padding-left: 110px;
+  }
+
+  .codeParagraph {
+    margin-bottom: 5px;
+  }
+
+  .aboutFont {
+    font-size: 25px;
+  }
+
+  .githubDiv {
+    margin: 3px;
+  }
+
+  .github {
+    color: black;
+  }
+
+  .linkedInDiv {
+    margin-left: 10px;
+  }
+
+  .linkedIn {
+    color: black;
+  }
+}
