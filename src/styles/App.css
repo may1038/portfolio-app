@@ -1,979 +1,248 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: #f34f4f;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 29px;
-  width: 100%;
-  position: fixed;
-}
-
-p {
-  font-size: 15px;
-}
-
-span {
-  font-size: 12px;
-}
-
-a {
-  color: #231f1f;
-}
-
-.span {
-  font-size: 15px;
-}
-
-.active {
-  color: #ecf0f1;
-  text-decoration: none;
-}
-
-.homeLink:hover {
-  color: #2980b9;
-}
-
-.homeLink {
-  font-size: 16px;
-}
-
-.imgBlog {
-  height: 210px;
-  width: auto;
-  border-radius: 3px;
-}
-
-.imgThreads {
-  height: 210px;
-  width: auto;
-  border-radius: 3px;
-}
-
-.imgHeadShot {
-  height: 300px;
-  width: auto;
-}
-
-.homeImg {
-  height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1432847712612-926caafaa802?dpr=1&auto=compress,format&fit=crop&w=2700&h=&q=80&cs=tinysrgb&crop=");
-  background-size: cover;
-}
-
-.name {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  color: #ecf0f1;
-  font-size: 30px;
-}
-
-.form {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
-  width: 100%;
-  background-image: url("https://images.unsplash.com/photo-1505312763706-d42a3b9755b1?dpr=1&auto=compress,format&fit=crop&w=2801&h=&q=80&cs=tinysrgb&crop=");
-  background-size: cover;
-  height: 100vh;
-}
-
-.forminput {
-  margin: 5px;
-}
-
-.contactText {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
-  font-size: 23px;
-}
-
-.formSmWrapper {
-  border-radius: 3px;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  padding-left: 300px;
-  padding-right: 300px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-}
-
-.formFlex {
-  display: flex;
-  justify-content: flex-start;
-  width: 600px;
-}
-
-.navBar {
-  text-decoration: none;
-}
-
-.projectName {
-  border-bottom: 1px solid #b9b9b9;
-  padding-bottom: 10px;
-  margin-bottom: 0;
-  width: 100%;
-  font-size: 20px;
-}
-
-.codeParagrah {
-  margin-top: 0;
-  font-size: 17px;
-}
-
-.projectTitle {
-  border-bottom: 3px solid #b9b9b9;
-  padding-bottom: 10px;
-  margin-left: 100px;
-  margin-top: 60px;
-}
-
-.homeTitle {
-  margin-top: 50px;
-  border-bottom: 3px solid #b9b9b9;
-  padding-bottom: 10px;
-  font-size: 45px;
-}
-
-.bodyWrapper {
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.projectBodyWrapper {
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 70px;
-}
-
-.flexHome {
-  display: flex;
-  justify-content: center;
-}
-
-.projectFlex {
-  display: flex;
-  justify-content: center;
-}
-
-.backgroundContactWrap {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.aboutFont {
-  color: grey;
-  font-size: 25px;
-}
-
-.iconFlex {
-  display: flex;
-  margin-bottom: 10px;
-}
-
-.reactJsDiv {
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.htmlCssDiv {
-  display: flex;
-  justify-content: space-around;
-}
-
-.rowzContent {
-  flex-basis: 25%;
-}
-
-.spanFlex {
-  display: flex;
-  flex-direction: column;
-}
-
-.icon {
-  box-shadow: 3px 3px 5px #888888;
-}
-
-.aboutContentWrapper {
-  margin-top: 70px;
-}
-
-.skillsTitle {
-  color: grey;
-  font-size: 20px;
-}
-
-.ulCode {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.resumeMargin {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.skillsWrapper {
-  margin-top: 150px;
-}
-
-.aboutFlex {
-  margin-top: 150px;
-}
-
-.languagesUsed {
-  font-size: 18px;
-}
-
-/*iPhone 6 plus*/
-/*iPhone 6 plus*/
-/*iPhone 6 plus*/
-/*iPhone 6 plus*/
-/*iPhone 6 plus*/
-@media (min-width: 412px) {
-  nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #f34f4f;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 30px;
-    position: fixed;
+@media (min-width: 1530px) {
+  body {
+    font-family: helvetica;
+    font-size: 10.5px;
     width: 100%;
   }
 
   p {
-    font-size: 15px;
+    font-size: 17px;
+    margin: 0;
+    color: #b5b2b2;
   }
 
   span {
-    font-size: 12px;
-  }
-
-  a {
-    color: #231f1f;
-  }
-
-  .span {
-    font-size: 15px;
-  }
-
-  .active {
-    color: #ecf0f1;
-    text-decoration: none;
-  }
-
-  .homeLink:hover {
-    color: #2980b9;
-  }
-
-  .homeLink {
-    font-size: 16px;
-  }
-
-  .imgBlog {
-    height: 226px;
-    width: auto;
-    border-radius: 3px;
-  }
-
-  .imgThreads {
-    height: 226px;
-    width: auto;
-    border-radius: 3px;
-  }
-
-  .imgHeadShot {
-    height: 300px;
-    width: auto;
-  }
-
-  .homeImg {
-    height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1432847712612-926caafaa802?dpr=1&auto=compress,format&fit=crop&w=2700&h=&q=80&cs=tinysrgb&crop=");
-    background-size: cover;
-  }
-
-  .name {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    padding-top: 250px;
-    padding-bottom: 100px;
-    color: #ecf0f1;
-    font-size: 30px;
-  }
-
-  .form {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1505312763706-d42a3b9755b1?dpr=1&auto=compress,format&fit=crop&w=2801&h=&q=80&cs=tinysrgb&crop=");
-    background-size: cover;
-    height: 100vh;
-  }
-
-  .forminput {
-    margin: 5px;
-  }
-
-  .contactText {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    font-size: 23px;
-  }
-
-  .formSmWrapper {
-    border-radius: 3px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-  }
-
-  .formFlex {
-    display: flex;
-    justify-content: flex-start;
-    width: 600px;
-  }
-
-  .navBar {
-    text-decoration: none;
-  }
-
-  .projectName {
-    border-bottom: 1px solid #b9b9b9;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-    width: 100%;
-    font-size: 20px;
-  }
-
-  .codeParagrah {
-    margin-top: 0;
     font-size: 17px;
   }
 
-  .projectTitle {
-    border-bottom: 3px solid #b9b9b9;
-    padding-bottom: 10px;
-    margin-left: 100px;
-    margin-top: 60px;
-  }
-
-  .homeTitle {
-    margin-top: 50px;
-    border-bottom: 3px solid #b9b9b9;
-    padding-bottom: 10px;
-    font-size: 45px;
-  }
-
-  .bodyWrapper {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .projectBodyWrapper {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 70px;
-  }
-
-  .flexHome {
+  footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
   }
 
-  .projectFlex {
-    display: flex;
-    justify-content: center;
+  .wrapper {
+    width: 100%;
   }
 
-  .backgroundContactWrap {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  .profilePic {
+    height: auto;
+    width: 711px;
   }
 
-  .aboutFont {
-    color: grey;
+  .verticalText {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-top: 13px;
+    color: #b5b2b2;
     font-size: 25px;
   }
 
-  .iconFlex {
+  .titleSkillsWrapper {
     display: flex;
-    margin-bottom: 10px;
-  }
-
-  .reactJsDiv {
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .htmlCssDiv {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .rowzContent {
-    flex-basis: 25%;
-  }
-
-  .spanFlex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .icon {
-    box-shadow: 3px 3px 5px #888888;
-  }
-
-  .aboutContentWrapper {
-    margin-top: 70px;
-  }
-
-  .skillsTitle {
-    color: grey;
-    font-size: 20px;
-  }
-
-  .ulCode {
-    margin-top: 0;
-  }
-
-  .resumeMargin {
+    width: 682px;
     margin-top: 20px;
-    margin-bottom: 20px;
   }
 
-  .skillsWrapper {
-    margin-top: 150px;
-  }
-
-  .aboutFlex {
-    margin-top: 150px;
-  }
-
-  .languagesUsed {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 667px) {
-  nav {
-    display: flex;
-    justify-content: center;
-    background-color: #f34f4f;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 30px;
-    position: fixed;
-    width: 100%;
-  }
-
-  p {
-    font-size: 15px;
-  }
-
-  span {
-    font-size: 12px;
-  }
-
-  a {
-    margin-right: 10px;
-    color: #231f1f;
-  }
-
-  .span {
-    font-size: 15px;
-  }
-
-  .active {
-    color: #ecf0f1;
-    text-decoration: none;
-  }
-
-  .homeLink:hover {
-    color: #2980b9;
-  }
-
-  .homeLink {
-    font-size: 16px;
-  }
-
-  .imgBlog {
-    height: 226px;
-    width: auto;
-    border-radius: 3px;
-  }
-
-  .imgThreads {
-    height: 226px;
-    width: auto;
-    border-radius: 3px;
-  }
-
-  .imgHeadShot {
-    height: 300px;
-    width: auto;
-  }
-
-  .homeImg {
-    height: 110vh;
-    background-image: url("https://images.unsplash.com/photo-1432847712612-926caafaa802?dpr=1&auto=compress,format&fit=crop&w=2700&h=&q=80&cs=tinysrgb&crop=");
-    background-size: cover;
-  }
-
-  .name {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    color: #ecf0f1;
-    font-size: 30px;
-  }
-
-  .form {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1505312763706-d42a3b9755b1?dpr=1&auto=compress,format&fit=crop&w=2801&h=&q=80&cs=tinysrgb&crop=");
-    background-size: cover;
-    height: 100vh;
-  }
-
-  .forminput {
-    margin: 5px;
-  }
-
-  .contactText {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    font-size: 23px;
-  }
-
-  .formSmWrapper {
-    border-radius: 3px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-  }
-
-  .formFlex {
-    display: flex;
-    justify-content: flex-start;
-    width: 600px;
-  }
-
-  .navBar {
-    text-decoration: none;
-  }
-
-  .projectName {
-    border-bottom: 1px solid #b9b9b9;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-    width: 100%;
-    font-size: 20px;
-  }
-
-  .codeParagrah {
-    margin-top: 0;
-    font-size: 17px;
-  }
-
-  .projectTitle {
-    border-bottom: 3px solid #b9b9b9;
-    padding-bottom: 10px;
-    margin-left: 100px;
-    margin-top: 60px;
-  }
-
-  .homeTitle {
-    margin-top: 50px;
-    border-bottom: 3px solid #b9b9b9;
-    padding-bottom: 10px;
-    font-size: 45px;
-  }
-
-  .bodyWrapper {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .projectBodyWrapper {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 70px;
-  }
-
-  .flexHome {
-    display: flex;
-    justify-content: center;
-  }
-
-  .projectFlex {
-    display: flex;
-    justify-content: center;
-  }
-
-  .backgroundContactWrap {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  .aboutFont {
-    color: grey;
+  .header {
+    color: #b5b2b2;
     font-size: 25px;
   }
 
-  .iconFlex {
+  .vertical {
     display: flex;
-    margin-bottom: 10px;
-  }
-
-  .reactJsDiv {
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .htmlCssDiv {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .rowzContent {
-    flex-basis: 25%;
-  }
-
-  .spanFlex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .icon {
-    box-shadow: 3px 3px 5px #888888;
-  }
-
-  .aboutContentWrapper {
-    margin-top: 70px;
-  }
-
-  .skillsTitle {
-    color: grey;
-    font-size: 20px;
-  }
-
-  .ulCode {
-    margin-top: 0;
-  }
-
-  .resumeMargin {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .skillsWrapper {
-    margin-top: 150px;
-  }
-
-  .aboutFlex {
-    margin-top: 150px;
-  }
-
-  .languagesUsed {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 1100px) {
-  nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #f34f4f;
-    padding: 20px;
-    font-size: 30px;
-    width: 100%;
-    position: fixed;
-    /*transition-timing-function: ease-in-out;*/
-  }
-
-  p {
-    font-size: 19px;
-  }
-
-  span {
-    font-size: 16px;
-  }
-
-  a {
-    color: #231f1f;
-  }
-
-  .span {
-    font-size: 16px;
-  }
-
-  .active {
-    color: #ecf0f1;
-    text-decoration: none;
-  }
-
-  .homeLink:hover {
-    color: #2980b9;
-  }
-
-  .homeLink {
-    font-size: 16px;
-  }
-
-  .imgBlog {
-    height: 325px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     width: auto;
-    border-radius: 3px;
-  }
-
-  .imgBlog:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 3px 3px 5px #888888;
-  }
-
-  .imgThreads {
-    height: 325px;
-    width: auto;
-    border-radius: 3px;
-  }
-
-  .imgThreads:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 3px 3px 5px #888888;
-  }
-
-  .imgHeadShot {
-    height: 300px;
-    width: auto;
-  }
-
-  .homeImg {
-    height: 105vh;
-    background-image: url("https://images.unsplash.com/photo-1432847712612-926caafaa802?dpr=1&auto=compress,format&fit=crop&w=2700&h=&q=80&cs=tinysrgb&crop=");
-    background-size: cover;
   }
 
   .name {
-    margin: 0;
+    margin-left: 60px;
+  }
+
+  .projectImg {
+    height: 120px;
+    width: auto;
+  }
+
+  .imgAboutBackground {
     display: flex;
-    justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    color: #ecf0f1;
-    font-size: 90px;
   }
 
-  .form {
+  .aboutBackground {
+    height: auto;
+    width: auto;
+    padding-right: 50px;
+  }
+
+  .aboutTransform {
     display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1505312763706-d42a3b9755b1?dpr=1&auto=compress,format&fit=crop&w=2801&h=&q=80&cs=tinysrgb&crop=");
-    background-size: cover;
-    height: 100vh;
+    justify-content: flex-end;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 25px;
   }
 
-  .forminput {
-    margin: 5px;
+  .firstParagraph {
+    margin-bottom: 30px;
   }
 
-  .contactText {
+  .backTransform {
     display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    font-size: 23px;
+    justify-content: flex-end;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 25px;
   }
 
-  .formSmWrapper {
-    border-radius: 3px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-  }
-
-  .formFlex {
+  .backgroundDiv {
     display: flex;
-    justify-content: flex-start;
-    width: 600px;
+    margin-top: 81px;
   }
 
-  .navBar {
-    text-decoration: none;
+  .aboutDiv {
+    display: flex;
+    margin-top: 31px;
+  }
+
+  .homeTitle {
+    height: 70px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-right: 40px;
+    margin-top: 18px;
+    margin-right: 0;
+    font-size: 25px;
+  }
+
+  .reactJsDiv {
+    display: flex;
+    flex-direction: row;
+    width: auto;
   }
 
   .codeWrapper {
     display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .projectDesc {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 40px;
-    width: 700px;
-  }
-
-  .projectName {
-    border-bottom: 1px solid #b9b9b9;
-    width: 120px;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-    width: 100%;
-    font-size: 20px;
-  }
-
-  .codeParagrah {
-    margin-top: 0;
-    font-size: 17px;
-  }
-
-  .projectTitle {
-    border-bottom: 3px solid #b9b9b9;
-    width: 132px;
-    padding-bottom: 10px;
-    margin-left: 100px;
-    margin-top: 60px;
-  }
-
-  .homeTitle {
-    margin-top: 100px;
-    border-bottom: 3px solid #b9b9b9;
-    padding-bottom: 10px;
-    font-size: 45px;
-  }
-
-  .bodyWrapper {
-    width: 1100px;
-  }
-
-  .projectBodyWrapper {
-    width: 1100px;
-    margin: 50px;
-  }
-
-  .flexHome {
-    display: flex;
-    justify-content: center;
-  }
-
-  .projectFlex {
-    display: flex;
-    justify-content: center;
-  }
-
-  .backgroundContactWrap {
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  .aboutFont {
-    color: grey;
-    font-size: 26px;
-  }
-
-  .iconFlex {
-    display: flex;
-    margin-bottom: 10px;
-  }
-
-  .reactJsDiv {
-    margin-top: 120px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .htmlCssDiv {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .rowzContent {
-    flex-basis: 19%;
-  }
-
-  .spanFlex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .backgroundDiv {
-    margin-right: 100px;
-  }
-
-  .icon {
-    box-shadow: 3px 3px 5px #888888;
-  }
-
-  .aboutContentWrapper {
-    margin-top: 70px;
-  }
-
-  .skillsTitle {
-    color: grey;
-    font-size: 20px;
-  }
-
-  .ulCode {
-    margin-top: 0;
-  }
-
-  .resumeMargin {
-    margin-top: 20px;
     margin-bottom: 20px;
   }
 
+  .codeWrapper1 {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .projectBodyWrapper {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  .projectDesc {
+    margin: 10px;
+  }
+
+  .bigSkillsWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: auto;
+  }
+
   .skillsWrapper {
-    margin-top: 150px;
-    margin-bottom: 70px;
-    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    width: 561px;
+  }
+
+  .smallSkillsWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectBodyWrapper {
+    margin-left: 0;
+    padding-right: 50px;
+    width: 696px;
+    border-top: 1px solid #b5b2b2;
+  }
+
+  .projectName {
+    margin: 0px;
+    font-size: 17px;
+  }
+
+  .ulCode {
+    margin: 0;
+    color: #b5b2b2;
+  }
+
+  .projectTitle {
+    margin-top: 20px;
+    font-size: 25px;
   }
 
   .languagesUsed {
-    font-size: 18px;
+    color: #b5b2b2;
+  }
+
+  .skillsTitle {
+    color: #b5b2b2;
+    font-size: 17px;
+  }
+
+  .spanFlex {
+    color: #b5b2b2;
+  }
+
+  .homeLink {
+    color: #b5b2b2;
+    font-size: 17px;
+  }
+
+  .skills {
+    width: auto;
+    margin-right: 100px;
+  }
+
+  .contact {
+    display: flex;
+  }
+
+  .contactResumeWrapper {
+    display: flex;
+    padding-left: 108px;
+    border-top: 1px solid #b5b2b2;
+    padding-top: 27px;
+  }
+
+  .resumeMargin {
+    padding-left: 110px;
+  }
+
+  .codeParagraph {
+    margin-bottom: 5px;
+  }
+
+  .aboutFont {
+    font-size: 25px;
+  }
+
+  .githubDiv {
+    margin: 3px;
+  }
+
+  .github {
+    color: black;
+  }
+
+  .linkedInDiv {
+    margin-left: 10px;
+  }
+
+  .linkedIn {
+    color: black;
   }
 }
