@@ -4,11 +4,16 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="wrapper">
-        <div className="name">
-          <h1 className="header">Tyler May</h1>
+        <div className="nameTitle">
+          <div className="name">
+            <h1 className="header">Tyler May</h1>
+          </div>
+          <div>
+            <h1 className="verticalText">UI Designer/Web Developer</h1>
+          </div>
         </div>
         <div className="vertical">
-          <div className="imgAboutBackground">
+          <div className="imgContactResume">
             <a>
               <img
                 className="profilePic"
@@ -18,55 +23,98 @@ class Portfolio extends Component {
             </a>
 
             <div />
-            <div className="aboutBackground">
-              {/*About*/}
-              {/*About*/}
-              {/*About*/}
-              <div className="aboutDiv">
-                <h1 className="aboutTransform">About</h1>
-                <div className="aboutContentWrapper">
-                  <p>
-                    Hi, I'm Tyler. I am a web developer/UI designer. I
-                    specialize in front-end development. I develop web
-                    applications using HTML, CSS, javascript, ReactJS but am
-                    familiar with node.js, mongoDB, SQL, pulling data from APIs
-                    and building databases.
-                  </p>
-                  <p>
-                    As a UI designer I am comfortable using Adobe XD and sketch.
-                  </p>
-                  <p>
-                    I am currently searching for work. I am looking for an
-                    organization with a culture that fits my personality. I love
-                    to work in groups that have great communication.
-                    Communication is of huge importance to me.
-                  </p>
+
+            {/*Contact*/}
+            {/*Contact*/}
+            {/*Contact*/}
+            <div className="contactResumeWrapper">
+              <div>
+                <h1 className="aboutFont">Contact</h1>
+                <div className="contact">
+                  <div className="spanFlex">
+                    <div>
+                      <span>tylermay@usa.com</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              {/*Backgroud*/}
-              {/*Backgroud*/}
-              {/*Backgroud*/}
-
-              <div className="backgroundDiv">
-                <h1 className="backTransform">Background</h1>
-                <div className="paragraphSpacing">
-                  <div className="firstParagraph">
-                    <p>
-                      I recently completed a 12-week course aimed at full stack
-                      web development at The Iron Yard. I enjoy building
-                      applications and especially like design. At The Iron Yard
-                      I learned to build full web applications front to back.
-                      This applicable skill gives me the ability to move into a
-                      position with little learning curve.
-                    </p>
-                  </div>
-                  <p>I look forward to speaking with you!</p>
+              {/*Resume*/}
+              {/*Resume*/}
+              {/*Resume*/}
+              <div className="resumeFlex">
+                <div className="resumeMargin">
+                  <h1 className="aboutFont">Resume</h1>
+                  <a className="homeLink" href="/resume.html" target="_blank">
+                    View/Link
+                  </a>
+                </div>
+              </div>
+              <div className="icons">
+                <div className="githubDiv">
+                  <a
+                    className="github"
+                    href="https://github.com/may1038"
+                    target="_blank"
+                  >
+                    <i class="fa fa-github fa-2x" aria-hidden="true" />
+                  </a>
+                </div>
+                <div className="linkedInDiv">
+                  <span>
+                    <a
+                      className="linkedIn"
+                      href="https://www.linkedin.com/in/tyler-may-bb31606b/"
+                      target="_blank"
+                    >
+                      <i class="fa fa-linkedin fa-2x" aria-hidden="true" />
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
           </div>
-          <div>
-            <h1 className="verticalText">UI Designer/Web Developer</h1>
+          {/*About*/}
+          {/*About*/}
+          {/*About*/}
+          <div className="aboutDiv">
+            <h1 className="aboutTransform">About</h1>
+            <div className="aboutContentWrapper">
+              <p>
+                Hi, I'm Tyler. I am a web developer/UI designer. I specialize in
+                front-end development. I develop web applications using HTML,
+                CSS, javascript, ReactJS but am familiar with node.js, mongoDB,
+                SQL, pulling data from APIs and building databases.
+              </p>
+              <p>
+                As a UI designer I am comfortable using Adobe XD and sketch.
+              </p>
+              <p>
+                I am currently searching for work. I am looking for an
+                organization with a culture that fits my personality. I love to
+                work in groups that have great communication. Communication is
+                of huge importance to me.
+              </p>
+            </div>
+          </div>
+          {/*Backgroud*/}
+          {/*Backgroud*/}
+          {/*Backgroud*/}
+
+          <div className="backgroundDiv">
+            <h1 className="backTransform">Background</h1>
+            <div className="paragraphSpacing">
+              <div className="firstParagraph">
+                <p>
+                  I recently completed a 12-week course aimed at full stack web
+                  development at The Iron Yard. I enjoy building applications
+                  and especially like design. At The Iron Yard I learned to
+                  build full web applications front to back. This applicable
+                  skill gives me the ability to move into a position with little
+                  learning curve.
+                </p>
+              </div>
+              <p>I look forward to speaking with you!</p>
+            </div>
           </div>
         </div>
 
@@ -139,33 +187,6 @@ class Portfolio extends Component {
 
                       <span className="span">API</span>
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              {/*Contact*/}
-              {/*Contact*/}
-              {/*Contact*/}
-              <div className="contactResumeWrapper">
-                <div>
-                  <h1 className="aboutFont">Contact</h1>
-                  <div className="contact">
-                    <div className="spanFlex">
-                      <div>
-                        <span>tylermay@usa.com</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/*Resume*/}
-                {/*Resume*/}
-                {/*Resume*/}
-                <div className="resumeFlex">
-                  <div className="resumeMargin">
-                    <h1 className="aboutFont">Resume</h1>
-                    <a className="homeLink" href="/resume.html" target="_blank">
-                      View/Link
-                    </a>
                   </div>
                 </div>
               </div>
@@ -242,28 +263,7 @@ class Portfolio extends Component {
           </div>
         </div>
         <div>
-          <footer>
-            <div className="githubDiv">
-              <a
-                className="github"
-                href="https://github.com/may1038"
-                target="_blank"
-              >
-                <i class="fa fa-github fa-3x" aria-hidden="true" />
-              </a>
-            </div>
-            <div className="linkedInDiv">
-              <span>
-                <a
-                  className="linkedIn"
-                  href="https://www.linkedin.com/in/tyler-may-bb31606b/"
-                  target="_blank"
-                >
-                  <i class="fa fa-linkedin fa-2x" aria-hidden="true" />
-                </a>
-              </span>
-            </div>
-          </footer>
+          <footer />
         </div>
       </div>
     )
