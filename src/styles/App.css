@@ -1,77 +1,79 @@
-body {
-  width: 758px;
-}
+@media (min-width: 375px) {
+  body {
+    width: 758px;
+  }
 
-i {
-  color: black;
-}
+  i {
+    color: black;
+  }
 
-.profilePic {
-  height: auto;
-  width: 500px;
-}
+  .profilePic {
+    height: auto;
+    width: 500px;
+  }
 
-.projectImg {
-  height: 250px;
-  width: auto;
-}
+  .projectImg {
+    height: 250px;
+    width: auto;
+  }
 
-.imgContactResume {
-  display: flex;
-}
+  .imgContactResume {
+    display: flex;
+  }
 
-.nameTitle {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-}
+  .nameTitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
 
-.icons {
-  display: flex;
-  margin-top: 27px;
-}
+  .icons {
+    display: flex;
+    margin-top: 27px;
+  }
 
-.githubDiv {
-  margin: 3px;
-}
+  .githubDiv {
+    margin: 3px;
+  }
 
-.linkedInDiv {
-  margin: 3px;
-}
+  .linkedInDiv {
+    margin: 3px;
+  }
 
-.contactResumeWrapper {
-  margin: 30px;
-  padding-left: 31px;
-}
+  .contactResumeWrapper {
+    margin: 30px;
+    padding-left: 31px;
+  }
 
-.aboutTransform {
-  margin-left: 20px;
-}
+  .aboutTransform {
+    margin-left: 20px;
+  }
 
-.backTransform {
-  margin-left: 20px;
-}
+  .backTransform {
+    margin-left: 20px;
+  }
 
-.homeTitle {
-  margin-left: 20px;
-}
+  .homeTitle {
+    margin-left: 20px;
+  }
 
-.projectTitle {
-  margin-left: 20px;
-}
+  .projectTitle {
+    margin-left: 20px;
+  }
 
-.codeWrapper1 {
-  margin: 50px;
-}
+  .codeWrapper1 {
+    margin: 50px;
+  }
 
-.codeWrapper {
-  margin: 50px;
-}
+  .codeWrapper {
+    margin: 50px;
+  }
 
-.aboutContentWrapper {
-  margin: 50px;
-}
+  .aboutContentWrapper {
+    margin: 50px;
+  }
 
-.paragraphSpacing {
-  margin: 50px;
+  .paragraphSpacing {
+    margin: 50px;
+  }
 }
