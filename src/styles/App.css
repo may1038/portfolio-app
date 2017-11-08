@@ -1,79 +1,197 @@
-@media (min-width: 375px) {
-  body {
-    width: 758px;
-  }
+body {
+  width: 100%;
+  font-family: Helvetica;
+}
 
-  i {
-    color: black;
-  }
+i {
+  color: black;
+}
 
-  .profilePic {
-    height: auto;
-    width: 500px;
-  }
+p {
+  font-size: 20px;
+}
 
-  .projectImg {
-    height: 250px;
-    width: auto;
-  }
+span {
+  font-size: 20px;
+}
 
-  .imgContactResume {
-    display: flex;
-  }
+.profilePic {
+  height: auto;
+  width: 588px;
+  border-radius: 3px;
+}
 
-  .nameTitle {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-  }
+.projectImg {
+  height: 300px;
+  width: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+}
 
-  .icons {
-    display: flex;
-    margin-top: 27px;
-  }
+.imgContactResume {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
 
-  .githubDiv {
-    margin: 3px;
-  }
+.header {
+  font-size: 60px;
+}
 
-  .linkedInDiv {
-    margin: 3px;
-  }
+.jobDesc {
+  font-size: 60px;
+}
 
-  .contactResumeWrapper {
-    margin: 30px;
-    padding-left: 31px;
-  }
+.header-bg {
+  background-image: url("https://images.unsplash.com/photo-1483653085484-eb63c9f02547?auto=format&fit=crop&w=2100&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .aboutTransform {
-    margin-left: 20px;
-  }
+.header-border {
+  background-color: #ffffff;
+  margin-left: 198px;
+  margin-right: 198px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  border-radius: 3px;
+}
 
-  .backTransform {
-    margin-left: 20px;
-  }
+.nameTitle {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 25px;
+}
 
-  .homeTitle {
-    margin-left: 20px;
-  }
+.icons {
+  display: flex;
+  margin-top: 27px;
+}
 
-  .projectTitle {
-    margin-left: 20px;
-  }
+.githubDiv {
+  margin: 3px;
+  margin-right: 10px;
+}
 
-  .codeWrapper1 {
-    margin: 50px;
-  }
+.linkedInDiv {
+  margin: 3px;
+}
 
-  .codeWrapper {
-    margin: 50px;
-  }
+.twitterDiv {
+  margin: 3px;
+  margin-right: 10px;
+}
 
-  .aboutContentWrapper {
-    margin: 50px;
-  }
+.instaDiv {
+  margin: 3px;
+  margin-right: 10px;
+}
 
-  .paragraphSpacing {
-    margin: 50px;
-  }
+.contactResumeWrapper {
+  display: flex;
+}
+
+.aboutTransform {
+  margin-left: 20px;
+  font-size: 34px;
+}
+
+.backTransform {
+  margin-left: 20px;
+  font-size: 34px;
+}
+
+.homeTitle {
+  margin-left: 20px;
+  font-size: 34px;
+}
+
+.projectTitle {
+  margin-left: 20px;
+  font-size: 34px;
+}
+
+.codeWrapper1 {
+  display: flex;
+  margin: 50px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.codeWrapper {
+  display: flex;
+  margin: 50px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.aboutContentWrapper {
+  margin: 50px;
+}
+
+.paragraphSpacing {
+  margin: 50px;
+}
+
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.titleSkillsWrapper {
+  margin: 100px;
+}
+
+.resumeMargin {
+  margin-left: 35px;
+}
+
+.aboutFont {
+  margin: 0px;
+  font-size: 34px;
+}
+
+.bodyWrapper {
+  width: 100%;
+  background-color: #e0e0e0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.aboutDiv {
+  margin: 100px;
+}
+
+.backgroundDiv {
+  margin: 100px;
+}
+
+.projectName {
+  font-size: 27px;
+}
+
+.projectBodyWrapper {
+  margin: 80px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.bigSkillsWrapper {
+  margin: 50px;
+}
+
+.projectDesc {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
 }
