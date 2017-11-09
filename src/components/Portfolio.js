@@ -227,7 +227,6 @@ class Portfolio extends Component {
             {/*Projects*/}
             {/*Projects*/}
             {/*Projects*/}
-
             <div className="projectBodyWrapper">
               <h1 className="projectTitle">Projects</h1>
               <div className="codeWrapper1">
