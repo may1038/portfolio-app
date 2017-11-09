@@ -15,6 +15,19 @@ span {
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .homeLink {
   color: #0000ee;
 }
@@ -119,6 +132,10 @@ span {
   font-size: 34px;
 }
 
+.projectName {
+  font-weight: normal;
+}
+
 .codeWrapper1 {
   display: flex;
   margin: 50px;
@@ -163,6 +180,7 @@ span {
   margin: 0px;
   font-size: 34px;
   color: #ff5c4c;
+  font-weight: lighter;
 }
 
 .bodyWrapper {
@@ -227,8 +245,71 @@ span {
 .skillstitle {
   font-size: 25px;
   color: #ff5c4c;
+  font-weight: lighter;
 }
 
 .skills-td {
   font-size: 20px;
+}
+
+.landingPageImg {
+  background-image: url("https://images.unsplash.com/photo-1435253325575-18dd01bad23a?auto=format&fit=crop&w=2250&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.landingPage-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: white;
+  height: 800px;
+  font-size: 143px;
+}
+
+.smallTitle {
+  color: white;
+  font-weight: lighter;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: -310px;
+  font-size: 32px;
+}
+
+.zoePhoto {
+  height: 40vh;
+  width: auto;
+  margin: 50px;
+}
+
+.photosWrapper {
+  width: 100%;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photosTable {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 120px;
+  background-color: #232323;
+  padding: 20px;
+  padding-left: 40px;
+  border-radius: 3px;
+}
+
+.photography-title {
+  font-size: 60px;
+}
+
+.photoTitle {
+  color: white;
+  font-weight: lighter;
 }

@@ -5,11 +5,8 @@ class Portfolio extends Component {
     return (
       <div className="wrapper">
         <div className="nameTitle">
-          <div className="name">
-            <h1 className="header">Tyler May</h1>
-          </div>
           <div>
-            <h1 className="jobDesc">UI Designer/Developer</h1>
+            <h1 className="header">Portfolio</h1>
           </div>
         </div>
         <div className="vertical">
@@ -233,7 +230,6 @@ class Portfolio extends Component {
 
             <div className="projectBodyWrapper">
               <h1 className="projectTitle">Projects</h1>
-              <div />
               <div className="codeWrapper1">
                 <a
                   href="https://xd.adobe.com/view/52630bac-5cd1-4abc-aca2-a49495c47277/"
