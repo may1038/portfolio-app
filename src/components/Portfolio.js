@@ -104,17 +104,18 @@ class Portfolio extends Component {
                 <p>
                   Hi, I'm Tyler. I am a UI Designer/Developer. I design using
                   Adobe Creative Suite. I develop web applications using HTML,
-                  CSS, javascript, ReactJS but am familiar with node.js,
-                  mongoDB, SQL, pulling data from APIs and building databases.
+                  CSS, Javascript, ReactJS, and pulling data from APIs but am
+                  familiar with Node.js, MongoDB, SQL, and building databases.
                 </p>
                 <p>
-                  I travel as often as I can and enjoy the great outdoors. I
-                  love the city and am an aspiring photographer.
+                  I travel as often as I can. I enjoy the great outdoors, I love
+                  big cities, and I capture it all as an aspiring photographer.
                 </p>
                 <p>
-                  I am currently doing freelance UI/UX design for Ecotone, LLC.
-                  I love to work in groups that have great communication.
-                  Communication is of huge importance to me.
+                  I am currently doing freelance work as a UI/UX designer for
+                  Ecotone, LLC. I love being creative and design gives me that
+                  creative outlet. I perfer to work in groups and communication
+                  is of huge importance to me.
                 </p>
               </div>
             </div>
@@ -127,15 +128,12 @@ class Portfolio extends Component {
               <div className="paragraphSpacing">
                 <div className="firstParagraph">
                   <p>
-                    I recently completed a 12-week course aimed at full stack
-                    web development at The Iron Yard. I enjoy building
-                    applications and especially like design. At The Iron Yard I
-                    learned to build full web applications front to back. This
-                    applicable skill gives me the ability to move into a
-                    position with little learning curve.
+                    I recently completed a 12-week course aimed at full-stack
+                    web development at The Iron Yard. This applicable skill
+                    gives me the ability to move into a position with little
+                    learning curve.
                   </p>
                 </div>
-                <p>I look forward to speaking with you!</p>
               </div>
             </div>
           </div>
