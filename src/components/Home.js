@@ -84,15 +84,13 @@ class Portfolio extends Component {
                       </a>
                     </div>
                     <div className="linkedInDiv">
-                      <span>
-                        <a
-                          className="linkedIn"
-                          href="https://www.linkedin.com/in/tyler-may-bb31606b/"
-                          target="_blank"
-                        >
-                          <i class="fa fa-linkedin fa-2x" aria-hidden="true" />
-                        </a>
-                      </span>
+                      <a
+                        className="linkedIn"
+                        href="https://www.linkedin.com/in/tyler-may-bb31606b/"
+                        target="_blank"
+                      >
+                        <i class="fa fa-linkedin fa-2x" aria-hidden="true" />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -155,68 +153,77 @@ class Portfolio extends Component {
             <div className="skills">
               <div className="titleSkillsWrapper">
                 <h1 className="homeTitle">Skills</h1>
-                <div className="bigSkillsWrapper">
-                  <div className="skillsWrapper">
-                    <div className="smallSkillsWrapper">
-                      <div>
-                        <span className="skillsTitle">Languages:</span>
-                      </div>
-                      <br />
-                      <span className="span">Javascript</span>
-
-                      <span className="span">HTML</span>
-
-                      <span className="span">CSS</span>
-
-                      <span className="span">SQL</span>
+                <div className="skillsTable">
+                  <table>
+                    <div className="languages">
+                      <th>
+                        <tr className="skillstitle">Languages:</tr>
+                      </th>
+                      <tr>
+                        <td className="skills-td">
+                          Javascript
+                          <br />
+                          HTML5
+                          <br />
+                          CSS3
+                        </td>
+                      </tr>
                     </div>
-                    <div className="smallSkillsWrapper">
-                      <div>
-                        <span className="skillsTitle">Framworks:</span>
-                      </div>
-                      <br />
-                      <span className="span">ReactJS</span>
+                    <div className="frameworks">
+                      <th>
+                        <tr className="skillstitle">Frameworks:</tr>
+                      </th>
+                      <tr>
+                        <td className="skills-td">ReactJS</td>
+                      </tr>
                     </div>
-                    <div className="smallSkillsWrapper">
-                      <div>
-                        <span className="skillsTitle">NoSQL:</span>
-                      </div>
-                      <br />
-                      <span className="span">MongoDB</span>
+                    <div className="design">
+                      <th>
+                        <tr className="skillstitle">Design:</tr>
+                      </th>
+                      <tr>
+                        <td className="skills-td">
+                          Adobe XD
+                          <br />
+                          Sketch
+                          <br />
+                          Responsive Design
+                        </td>
+                      </tr>
                     </div>
-                  </div>
-
-                  <div className="skillsWrapper">
-                    <div className="smallSkillsWrapper">
-                      <div>
-                        <span className="skillsTitle">Design:</span>
-                      </div>
-                      <br />
-                      <span>Adobe XD</span>
-
-                      <span>Sketch</span>
-
-                      <span>Responsive Design</span>
+                  </table>
+                  <table>
+                    <div className="noSql">
+                      <th>
+                        <tr className="skillstitle">NoSQL:</tr>
+                      </th>
+                      <tr>
+                        <td className="skills-td">MongoDB</td>
+                      </tr>
                     </div>
-                    <div className="smallSkillsWrapper">
-                      <div>
-                        <span className="skillsTitle">Version Control:</span>
-                      </div>
-                      <br />
-                      <span className="span">Git</span>
+                    <div className="versionCtrl">
+                      <th>
+                        <tr className="skillstitle">Version Control:</tr>
+                      </th>
+                      <tr>
+                        <td className="skills-td">Git</td>
+                      </tr>
                     </div>
-                    <div className="smallSkillsWrapper">
-                      <div>
-                        <span className="skillsTitle">Server-side:</span>
-                      </div>
-                      <br />
-                      <span className="span">Sequelize</span>
-
-                      <span className="span">PostgresSQL</span>
-
-                      <span className="span">API</span>
+                    <div className="serverSide">
+                      <th>
+                        <tr className="skillstitle">Server-side:</tr>
+                      </th>
+                      <tr>
+                        <td className="skills-td">
+                          Sequelize
+                          <br />
+                          PostgresSQL
+                          <br />
+                          API
+                        </td>
+                      </tr>
                     </div>
-                  </div>
+                  </table>
                 </div>
               </div>
             </div>
