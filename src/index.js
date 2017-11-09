@@ -5,16 +5,18 @@ import App from "./components/App"
 import registerServiceWorker from "./registerServiceWorker"
 import { BrowserRouter, Route } from "react-router-dom"
 import BaseLayout from "./components/BaseLayout"
-import Portfolio from "./components/Portfolio"
+import About from "./components/About"
 import LandingPage from "./components/LandingPage"
 import Photography from "./components/Photography"
+import DesignDevelopment from "./components/DesignDevelopment"
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <BaseLayout>
         <Route path="/" exact component={LandingPage} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/about" component={About} />
+        <Route path="/designdevelopment" component={DesignDevelopment} />
         <Route path="/photography" component={Photography} />
       </BaseLayout>
     </App>

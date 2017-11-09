@@ -9,7 +9,8 @@ class BaseLayout extends Component {
           <NavLink exact to="/">
             Home
           </NavLink>
-          <NavLink to="/portfolio">Design/Development</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/designdevelopment">Design/Development</NavLink>
           <NavLink to="/photography">Photography</NavLink>
         </nav>
         {this.props.children}
