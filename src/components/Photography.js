@@ -13,7 +13,7 @@ class Photography extends Component {
             <div className="photos">
               <h1 className="photography-title">Photography</h1>
               <table className="photosTable">
-                <h1 className="photoTitle">A Day at the Zoo</h1>
+                <h1 className="photoTitle">A Day at the Zoo | Houston</h1>
                 <h2 className="photoTitle">2017</h2>
                 <img
                   className="zoePhoto"
