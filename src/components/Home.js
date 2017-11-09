@@ -105,20 +105,19 @@ class Portfolio extends Component {
               <h1 className="aboutTransform">About</h1>
               <div className="aboutContentWrapper">
                 <p>
-                  Hi, I'm Tyler. I am a UI Designer/Developer. I develop web
-                  applications using HTML, CSS, javascript, ReactJS but am
-                  familiar with node.js, mongoDB, SQL, pulling data from APIs
-                  and building databases. outdoors/traveler/aspiring
-                  photographer/city...
+                  Hi, I'm Tyler. I am a UI Designer/Developer. I design using
+                  Adobe Creative Suite. I develop web applications using HTML,
+                  CSS, javascript, ReactJS but am familiar with node.js,
+                  mongoDB, SQL, pulling data from APIs and building databases.
                 </p>
                 <p>
-                  As a UI designer I am comfortable using Adobe XD and sketch.
+                  I travel as often as I can and enjoy the great outdoors. I
+                  love the city and am an aspiring photographer.
                 </p>
                 <p>
-                  I am currently searching for work. I am looking for an
-                  organization with a culture that fits my personality. I love
-                  to work in groups that have great communication. Communication
-                  is of huge importance to me.
+                  I am currently doing freelance UI/UX design for Ecotone, LLC.
+                  I love to work in groups that have great communication.
+                  Communication is of huge importance to me.
                 </p>
               </div>
             </div>
