@@ -346,8 +346,9 @@
   .photosTable {
     margin-bottom: 120px;
     background-color: #232323;
-    padding-left: 58px;
+    padding-left: 35px;
     border-radius: 3px;
+    margin: 24px;
   }
 
   .photography-title {
@@ -357,7 +358,7 @@
   .photoTitle {
     color: white;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 21px;
   }
 }
 
