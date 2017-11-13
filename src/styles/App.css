@@ -899,6 +899,7 @@
     background-color: white;
     padding: 20px;
     border-radius: 3px;
+    width: auto;
   }
 
   .codeWrapper {
@@ -907,6 +908,7 @@
     background-color: white;
     padding: 20px;
     border-radius: 3px;
+    width: auto;
   }
 
   .aboutContentWrapper {
@@ -959,6 +961,7 @@
     background-color: #e0e0e0;
     border-radius: 3px;
     padding: 20px;
+    width: auto;
   }
 
   .bigSkillsWrapper {
@@ -1021,6 +1024,8 @@
 
   .header-desingDev {
     font-size: 46px;
+    display: flex;
+    justify-content: center;
   }
 
   .landingPage-name {
@@ -1055,6 +1060,7 @@
 
   .photos {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -1251,6 +1257,7 @@
     padding: 20px;
     border-radius: 3px;
     height: 213px;
+    width: auto;
   }
 
   .codeWrapper {
@@ -1260,6 +1267,7 @@
     padding: 20px;
     border-radius: 3px;
     height: 213px;
+    width: auto;
   }
 
   .aboutContentWrapper {
@@ -1312,6 +1320,7 @@
     background-color: #e0e0e0;
     border-radius: 3px;
     padding: 20px;
+    width: auto;
   }
 
   .bigSkillsWrapper {
@@ -1374,6 +1383,8 @@
 
   .header-desingDev {
     font-size: 50px;
+    display: flex;
+    justify-content: center;
   }
 
   .landingPage-name {
@@ -1408,6 +1419,7 @@
 
   .photos {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -1600,6 +1612,7 @@
     padding: 30px;
     border-radius: 3px;
     height: 255px;
+    width: auto;
   }
 
   .codeWrapper {
@@ -1609,6 +1622,7 @@
     padding: 30px;
     border-radius: 3px;
     height: 255px;
+    width: auto;
   }
 
   .aboutContentWrapper {
@@ -1661,6 +1675,7 @@
     background-color: #e0e0e0;
     border-radius: 3px;
     padding: 20px;
+    width: auto;
   }
 
   .bigSkillsWrapper {
@@ -1722,6 +1737,8 @@
 
   .header-desingDev {
     font-size: 60px;
+    display: flex;
+    justify-content: center;
   }
 
   .landingPage-name {
@@ -1756,6 +1773,7 @@
 
   .photos {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -1947,6 +1965,7 @@
     padding: 30px;
     border-radius: 3px;
     height: 260px;
+    width: auto;
   }
 
   .codeWrapper {
@@ -1956,6 +1975,7 @@
     padding: 30px;
     border-radius: 3px;
     height: 260px;
+    width: auto;
   }
 
   .aboutContentWrapper {
@@ -2008,6 +2028,7 @@
     background-color: #e0e0e0;
     border-radius: 3px;
     padding: 20px;
+    width: auto;
   }
 
   .bigSkillsWrapper {
@@ -2069,6 +2090,8 @@
 
   .header-desingDev {
     font-size: 60px;
+    display: flex;
+    justify-content: center;
   }
 
   .landingPage-name {
@@ -2103,6 +2126,7 @@
 
   .photos {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -2294,6 +2318,7 @@
     padding: 30px;
     border-radius: 3px;
     height: 280px;
+    width: auto;
   }
 
   .codeWrapper {
@@ -2303,6 +2328,7 @@
     padding: 30px;
     border-radius: 3px;
     height: 280px;
+    width: auto;
   }
 
   .aboutContentWrapper {
@@ -2355,6 +2381,7 @@
     background-color: #e0e0e0;
     border-radius: 3px;
     padding: 20px;
+    width: auto;
   }
 
   .bigSkillsWrapper {
@@ -2416,6 +2443,8 @@
 
   .header-desingDev {
     font-size: 60px;
+    display: flex;
+    justify-content: center;
   }
 
   .landingPage-name {
@@ -2450,6 +2479,7 @@
 
   .photos {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
   }

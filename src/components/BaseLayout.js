@@ -11,7 +11,6 @@ class BaseLayout extends Component {
           </NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/designdevelopment">Design/Development</NavLink>
-          <NavLink to="/photography">Photography</NavLink>
         </nav>
         {this.props.children}
       </div>
