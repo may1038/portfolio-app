@@ -80,7 +80,7 @@ class Portfolio extends Component {
               <div className="titleSkillsWrapper">
                 <h1 className="homeTitle">Skills</h1>
                 <div className="skillsTable">
-                  <table>
+                  <table className="table1">
                     <div className="languages">
                       <th>
                         <tr className="skillstitle">Languages:</tr>

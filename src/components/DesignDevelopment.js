@@ -75,7 +75,7 @@ class DesignDevelopment extends Component {
           {/*Contact*/}
           {/*Contact*/}
           <div className="titleWrapper">
-            <div>
+            <div className="contact-wrapper">
               <h1 className="aboutFont">Contact</h1>
               <div className="contact">
                 <div className="spanFlex">
